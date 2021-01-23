@@ -1,0 +1,16 @@
+PODS:
+  - MMAESTool (0.1.0)
+
+DEPENDENCIES:
+  - MMAESTool (from `../`)
+
+EXTERNAL SOURCES:
+  MMAESTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MMAESTool: 976e70b0224254a2e9524f43dcf27d6f284d4f39
+
+PODFILE CHECKSUM: 703ff5bef0560fa7ddfaaee437c2dac423deb700
+
+COCOAPODS: 1.9.3

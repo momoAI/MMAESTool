@@ -1,0 +1,6 @@
+framework module MMAESTool {
+  umbrella header "MMAESTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C89D42BCDFA31B23A5DE298 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0C89D42BCDFA31B23A5DE298 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1829EC19A65508778568E674 /* Pods_MMAESTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMAESTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21726D7773A5DA127B1803D8 /* Pods-MMAESTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMAESTool_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MMAESTool_Tests/Pods-MMAESTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MMAESTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMAESTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,8 +63,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F90CA1A17842E85427FF4B3 /* Pods-MMAESTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMAESTool_Example.release.xcconfig"; path = "Target Support Files/Pods-MMAESTool_Example/Pods-MMAESTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A400EF64D90C8AC097B158F7 /* Pods-MMAESTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMAESTool_Tests.release.xcconfig"; path = "Target Support Files/Pods-MMAESTool_Tests/Pods-MMAESTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A8C10BEA078DC2E917265FBC /* MMAESTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MMAESTool.podspec; path = ../MMAESTool.podspec; sourceTree = "<group>"; };
-		C78E7B49334AE83EE3D542C6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A8C10BEA078DC2E917265FBC /* MMAESTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MMAESTool.podspec; path = ../MMAESTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C78E7B49334AE83EE3D542C6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C95A23D05A511CB48E8A4D6D /* Pods_MMAESTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMAESTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9ED3476CF961C5B13BBE253 /* Pods-MMAESTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMAESTool_Example.debug.xcconfig"; path = "Target Support Files/Pods-MMAESTool_Example/Pods-MMAESTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +103,6 @@
 				21726D7773A5DA127B1803D8 /* Pods-MMAESTool_Tests.debug.xcconfig */,
 				A400EF64D90C8AC097B158F7 /* Pods-MMAESTool_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

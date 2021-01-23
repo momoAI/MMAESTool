@@ -1,0 +1,22 @@
+{
+  "name": "MMAESTool",
+  "version": "0.1.0",
+  "summary": "A short description of MMAESTool.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/momoAI/MMAESTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "momoAI": "luxu@fooww.com"
+  },
+  "source": {
+    "git": "https://github.com/momoAI/MMAESTool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MMAESTool/Classes/**/*"
+}
