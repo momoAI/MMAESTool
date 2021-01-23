@@ -22,7 +22,7 @@ pod 'MMAESTool'
 
 ## Author
 
-momoAI, luxu@fooww.com
+momoAI, momo@test.com
 
 ## License
 
